@@ -74,7 +74,7 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="lib\Redbox.HAL.Component.Model\Redbox.HAL.Component.Model.csproj">
+    <ProjectReference Include="$(SolutionDir)lib\Redbox.HAL.Component.Model\Redbox.HAL.Component.Model.csproj">
       <Project>{86986977-3d6f-4f59-bc0c-d181e7c4d334}</Project>
       <Name>Redbox.HAL.Component.Model</Name>
     </ProjectReference>
